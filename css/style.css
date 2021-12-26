@@ -1,0 +1,114 @@
+/*--
+  Оглавление:
+  -header
+  -left_main_said
+  -right_main_said
+  -head_second_conteiner
+  -examples
+  -footer 
+*/
+
+/*- header -*/
+
+
+.background{
+	background: #252525;
+	padding: 0;
+	min-height: 63vh;
+	display: flex;
+	color: #fff;
+	font-family: logofont;
+	font-size: 3vw;
+}
+#logo {
+	margin: 15px;
+}
+
+.firstblock{
+	margin-top: -330px;
+}
+/*- left_main_said -*/
+.left_main_said{
+	color: white;
+}
+.left_main_said p{
+	font-family: serif;
+	font-style: italic;
+	font-size: 1.8vw;
+}
+
+.left_main_said__img {
+	margin-top: 55px;
+	max-width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*- right_main_said -*/
+.right_main_said{
+	border-radius: 5%;
+	background: white;
+	max-width: 80%;
+}
+.form-label {
+	font-weight: bold;
+}
+.form-label sup {
+	font-weight: bold;
+	color: #9e0b0f;
+}
+
+.right_main_said h2 {
+	margin-top: 20px;
+    color: #9e0b0f;
+    font-size: 2.5vw;
+    text-align: center;
+    padding: 0 34px;
+    font-family: serif;
+	font-style: italic;
+}
+
+.right_main_said___btn {
+background-color: #9e0b0f;
+border-radius: 0px;
+width: 70%;
+}
+
+.formbutton{text-align: center;}
+
+/*- head_second_conteiner -*/
+
+.head_second_conteiner{
+	margin: 1.2vw 1.5vw;
+    color: #9e0b0f;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: serif;
+	font-style: italic;
+}
+
+/*- examples -*/
+
+.examples img{
+	width: 60%;
+	margin: auto;
+	border: none;
+}
+.examples h4 {
+	font-family: serif;
+	font-size: 1.3vw;
+}
+#hcenter { margin-top: 20px; }
+
+/*- footer -*/
+
+.footer {
+	background: #252525;
+	margin-bottom: 0px;
+}
+
+.footer__content {
+	color: #fff;
+	padding-top: 10px;
+}
